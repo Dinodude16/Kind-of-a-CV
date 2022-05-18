@@ -95,9 +95,9 @@ p {
 }
 
 .skills-table-width {
-    min-width: none;
-    max-width: 20em;
-    width: 1000px;
+    min-width: 20%;
+    max-width: 50%;
+    width: 30%;
 }
 
 .contact-me-table-width-1 {
@@ -106,6 +106,5 @@ p {
 }
 
 .contact-me-table-width-2 {
-    min-width: none;
-    width: 430px;
+    width: 60%;
 }
