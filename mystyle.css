@@ -95,16 +95,13 @@ p {
 }
 
 .skills-table-width {
-    min-width: 20%;
-    max-width: 50%;
-    width: 30%;
+    width: 25%;
 }
 
 .contact-me-table-width-1 {
-    min-width: none;
-    width: 210px;
+    width: 25%;
 }
 
 .contact-me-table-width-2 {
-    width: 60%;
+    width: 25%;
 }
