@@ -47,6 +47,7 @@ td {
     border: 1.5px solid #CDD9F0;
     background-color: #E3EBF9;
     padding: 3px;
+    font-size: 95%;
 }
 
 img {
@@ -63,6 +64,7 @@ hr {
     border-style: none;
     height: 2px;
     width: 95%;
+    margin-left: 0;
 
 }
 
