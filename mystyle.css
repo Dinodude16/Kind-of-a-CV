@@ -63,7 +63,7 @@ hr {
     border-style: none;
     height: 2px;
     width: 95%;
-    
+
 }
 
 h1 {
@@ -135,8 +135,4 @@ textarea {
     height: 200px;
     width: 200px;
     background-color: red;
-}
-
-.alignment-centre {
-    text-align: center;
 }
