@@ -79,6 +79,7 @@ hr {
 
 h1 {
     color: #274376;
+    margin-bottom: 10px;
 }
 
 h2 {
@@ -189,6 +190,7 @@ textarea {
 
     h1 {
         font-size: 150%;
+        margin-bottom: 10px;
     }
 
     i {
@@ -221,7 +223,7 @@ textarea {
 @media (max-width: 590px) {
 
     .width-scaling {
-        font-size: 90%;
+        font-size: 100%;
     }
 
     .skill-font-scale {
@@ -231,11 +233,12 @@ textarea {
     }
 
     h1 {
-        font-size: 200%;
+        font-size: 250%;
+        margin-bottom: 10px;
     }
 
     i {
-        font-size: 90%;
+        font-size: 100%;
     }
     
     table {
