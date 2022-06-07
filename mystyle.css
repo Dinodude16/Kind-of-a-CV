@@ -33,7 +33,7 @@ a:active {
 div {
     background-color: none;
     height: auto;
-    margin: 0px;
+    margin: 10px;
 }
 
 body {
@@ -41,11 +41,10 @@ body {
     font-family: 'Nunito';
     font-weight: 300;
     margin: 0px;
-    overflow-x: hidden;
 }
 
 table {
-    padding: 18px;
+    padding: 10px;
 }
 
 tr {
@@ -56,12 +55,13 @@ td {
     border: 1.5px solid #CDD9F0;
     background-color: #E3EBF9;
     padding: 0px;
-    font-size: 95%;
+    width: 200px;
 }
 
 img {
     border-radius: 50%;
-    width: 100%;
+    width: 150px;
+    margin: 10px;
 }
 
 img:hover {
@@ -74,7 +74,7 @@ hr {
     height: 2px;
     width: 95%;
     margin-left: 0;
-
+    margin: 5px;
 }
 
 h1 {
@@ -84,6 +84,7 @@ h1 {
 h2 {
     color: #274376;
     background-color: #eaf2ff;
+    margin: 10px;
 }
 
 h3 {
@@ -98,6 +99,7 @@ h4 {
 p {
     font-weight: 400;
     font-style: None;
+    margin: 10px;
 }
 
 input {
@@ -110,6 +112,14 @@ textarea {
 
 /* Classes */
 
+.lukedavey-aspiring-box {
+    width: 450px;
+}
+
+.img-box {
+    text-align: center;
+}
+
 .georgia-font {
     font-family: Georgia, 'Times New Roman', Times, serif;
 }
@@ -119,43 +129,47 @@ textarea {
     background-color: #E3EBF9;
 }
 
-.padding {
-    padding: 10px;
-}
-
 .skills-table-width {
-    width: 25%;
+    width: 3000px;
 }
 
 .contact-me-table-width-1 {
-    width: 45%;
+    width: 300px;
+}
+
+.top-div {
+    margin-bottom: 5px;
 }
 
 .main-body-div {
-    margin: 12px;
-    background-color: transparent;
+    margin-top: 5px;
 }
 
-.middle-div {
-    height: 200px;
-    width: 200px;
-    background-color: blue;
-}
+@media (max-width: 670px) {
 
-.bottom-div {
-    height: 200px;
-    width: 200px;
-    background-color: red;
-}
+    .skill-font-scale {
+        font-size: 100%;
+    }
 
-@media (max-width: 650px) {
+    .padding {
+        padding: 10px;
+    }
 
     .width-scaling {
-        font-size: 90%;
+        text-align: none;
+    }
+
+    .contact-me-table-width-1 {
+        max-width: 10000px;
+    }
+
+    .width-scaling {
+        font-size: 100%;
+        min-width: 130px;
     }
 
     .main-body-div {
-        margin: 3px;
+        margin: 6px;
     }
 
     .top-div {
@@ -169,21 +183,36 @@ textarea {
 
     h2 {
         text-align: center;
+        margin: 0px;
     }
 
     h1 {
-        font-size: 100%;
+        font-size: 150%;
     }
 
     i {
-        font-size: 100%;
+        font-size: 90%;
     }
 
     hr {
         width: 100%;
+        margin: 0px;
+        margin-top: 12px;
+        margin-bottom: 12px;
     }
-    img {
-        width: 100px;
-    }
-}
 
+    img {
+        width: 120px;
+        margin: 0px;
+    }
+
+    p {
+        margin-bottom: 6px;
+        margin-top: 6px;
+    }
+
+    body {
+        font-size: 90%;
+    }
+
+}
