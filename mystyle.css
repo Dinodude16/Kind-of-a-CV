@@ -216,3 +216,29 @@ textarea {
     }
 
 }
+
+@media (max-width: 590px) {
+
+    .width-scaling {
+        font-size: 90%;
+    }
+
+    .skill-font-scale {
+        font-size: 90%;
+        min-width: fit-content;
+        max-width: 10px;
+    }
+
+    h1 {
+        font-size: 200%;
+    }
+
+    i {
+        font-size: 90%;
+    }
+    
+    table {
+        font-size: 90%;
+    }
+
+}
