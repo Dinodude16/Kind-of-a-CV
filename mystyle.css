@@ -189,7 +189,7 @@ textarea {
     }
 
     h1 {
-        font-size: 150%;
+        font-size: 200%;
         margin-bottom: 10px;
     }
 
@@ -233,16 +233,46 @@ textarea {
     }
 
     h1 {
-        font-size: 250%;
+        font-size: 200%;
         margin-bottom: 10px;
     }
 
     i {
         font-size: 100%;
     }
-    
+
     table {
         font-size: 90%;
     }
 
+    img {
+        width: 110px;
+        margin: 0px;
+    }
+
+}
+
+@media (max-width: 400px) {
+
+    .not-many-qualifications {
+        font-size: 90%;
+    }
+
+    body {
+        font-size: 85%;
+    }
+
+    img {
+        width: 90px;
+        margin: 0px;
+    }
+
+    h1 {
+        font-size: 180%;
+        margin-bottom: 10px;
+    }
+
+    i {
+        font-size: 90%;
+    }
 }
