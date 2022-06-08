@@ -54,7 +54,7 @@ tr {
 td {
     border: 1.5px solid #CDD9F0;
     background-color: #E3EBF9;
-    padding: 0px;
+    padding: 2px;
     width: 200px;
 }
 
@@ -110,20 +110,41 @@ input {
 
 textarea {
     background-color: #E3EBF9;
+    width: 70%;
+}
+
+form {
+    margin-top: 10px;
 }
 
 /* Classes */
 
+.submit-button {
+    width: 80px;
+}
+
+.table-border-left {
+    border-left: 0px;
+}
+
+.table-border-bottom {
+    border-bottom: 0px;
+}
+
 .lukedavey-aspiring-box {
     width: 450px;
+    border-left: 2px;
 }
 
 .img-box {
     text-align: center;
+    border-right: 2px;
 }
 
 .georgia-font {
     font-family: Georgia, 'Times New Roman', Times, serif;
+    margin-top: 10px;
+    margin-bottom: 10px;
 }
 
 .georgia-font:hover {
@@ -275,4 +296,5 @@ textarea {
     i {
         font-size: 90%;
     }
+
 }
