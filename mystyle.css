@@ -6,14 +6,14 @@
 }
 
 a:link {
-    color: #0059ff;
+    color: #6a95e6;
     background-color: transparent;
     text-decoration: none;
-    font-style: italic;
+    font-style: normal;
 }
 
 a:visited {
-    color: #6a95e6;
+    color: #406cbe;
     background-color: transparent;
     text-decoration: none;
 }
@@ -207,6 +207,12 @@ ul {
     border-width: 0px;
     border-bottom-width: 2px;
     border-color: #CDD9F0;
+    text-color: red;
+}
+
+.title-bar-link {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-style: normal;
 }
 
 .spacer-div {
