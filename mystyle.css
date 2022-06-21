@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
 
 ::selection {
     background-color: #70a9ffd2;
@@ -271,7 +271,66 @@ ul {
     margin-top: 5px;
 }
 
-@media (max-width: 850px) {
+@media (max-width: 900px) {
+
+
+    .title-bar-education {
+        position: absolute;
+        top: 14px;
+        left: 264px;
+        font-family: Georgia, 'Times New Roman', Times, serif;
+        font-size: 16px;
+        display: inline;
+    }
+    
+    .title-bar-hobbies {
+        position: absolute;
+        top: 14px;
+        left: 358px;
+        font-family: Georgia, 'Times New Roman', Times, serif;
+        font-size: 16px;
+        display: inline;
+    }
+
+    .title-bar-skills {
+        position: absolute;
+        top: 14px;
+        left: 436px;
+        font-family: Georgia, 'Times New Roman', Times, serif;
+        font-size: 16px;
+        display: inline;
+    }
+    
+    .title-bar-qualifications {
+        position: absolute;
+        top: 14px;
+        left: 491px;
+        font-family: Georgia, 'Times New Roman', Times, serif;
+        font-size: 16px;
+        display: inline;
+    }
+    
+    .title-bar-contactme {
+        position: absolute;
+        top: 14px;
+        left: 621px;
+        font-family: Georgia, 'Times New Roman', Times, serif;
+        font-size: 16px;
+        display: inline;
+    }
+    
+    .lukedavey-title-bar {
+        font-family: Georgia, 'Times New Roman', Times, serif;
+        display: inline;
+    }
+    
+    .title-bar-image {
+        width: 40px;
+        margin: 8px;
+        border-style: solid;
+        border-width: 2px;
+        border-color: #CDD9F0;
+    }
 
     .skill-font-scale {
         font-size: 100%;
@@ -341,6 +400,10 @@ ul {
     body {
         font-size: 90%;
     }
+
+}
+
+@media (max-width: 590px) {
 
 }
 
