@@ -276,8 +276,11 @@ ul {
     margin-top: 5px;
 }
 
-@media (max-width: 900px) {
+@media (max-width: 860px) {
 
+    .luke-name {
+        
+    }
 
     .title-bar-education {
         position: absolute;
@@ -408,7 +411,7 @@ ul {
 
 }
 
-@media (max-width: 590px) {
+@media (max-width: 760px) {
 
 }
 
