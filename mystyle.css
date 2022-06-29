@@ -72,7 +72,7 @@ img:hover {
 hr {
     background-color: #CDD9F0;
     border-style: none;
-    height: 1px;
+    height: 2px;
     width: 90%;
     margin-left: 0;
     margin: 5px;
@@ -124,6 +124,53 @@ ul {
 
 /* Classes */
 
+
+.title-bar-lukedavey {
+    position: absolute;
+    display: inline;
+    top: 0px;
+    font-size: 15px;
+    margin: 0px;
+}
+
+.luke-name {
+    position: absolute;
+    top: 13px;
+    left: 70px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 30px;
+    display: inline;
+    margin: 0px;
+}
+
+.spacer-div {
+    height: 60px;
+    width: 100%;
+    margin: 0;
+    background-color: none;
+}
+
+.dropdown a:hover {
+    background-color: red;
+}
+
+.dropdown-image {
+    border-radius: 0%;
+    width: 40px;
+    margin: 0px;
+}
+
+.dropdown {
+    background: none;
+    border: 0px;
+}
+
+.dropdown-nav {
+    height: fit-content;
+    width: fit-content;
+    position: relative;
+}
+
 .title-bar-education {
     position: absolute;
     top: 12px;
@@ -172,6 +219,7 @@ ul {
 .lukedavey-title-bar {
     font-family: Georgia, 'Times New Roman', Times, serif;
     display: inline;
+    width: 1000px;
 }
 
 .title-bar-image {
@@ -187,13 +235,6 @@ ul {
     display: inline;
     width: fit-content;
     margin: 0;
-}
-
-.title-bar-lukedavey {
-    position: absolute;
-    display: inline;
-    top: 4px;
-    font-size: 15px;
 }
 
 .title-bar {
@@ -278,9 +319,7 @@ ul {
 
 @media (max-width: 860px) {
 
-    .luke-name {
-        
-    }
+    .luke-name {}
 
     .title-bar-education {
         position: absolute;
@@ -290,7 +329,7 @@ ul {
         font-size: 16px;
         display: inline;
     }
-    
+
     .title-bar-hobbies {
         position: absolute;
         top: 14px;
@@ -308,7 +347,7 @@ ul {
         font-size: 16px;
         display: inline;
     }
-    
+
     .title-bar-qualifications {
         position: absolute;
         top: 14px;
@@ -317,7 +356,7 @@ ul {
         font-size: 16px;
         display: inline;
     }
-    
+
     .title-bar-contactme {
         position: absolute;
         top: 14px;
@@ -326,12 +365,12 @@ ul {
         font-size: 16px;
         display: inline;
     }
-    
+
     .lukedavey-title-bar {
         font-family: Georgia, 'Times New Roman', Times, serif;
         display: inline;
     }
-    
+
     .title-bar-image {
         width: 40px;
         margin: 8px;
@@ -411,9 +450,7 @@ ul {
 
 }
 
-@media (max-width: 760px) {
-
-}
+@media (max-width: 760px) {}
 
 @media (max-width: 590px) {
 
