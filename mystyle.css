@@ -11,12 +11,14 @@
 .dropdown {
     position: relative;
     display: inline-block;
+    top: -100px;
 }
 
 .dropdown-content {
     display: none;
     position: absolute;
     top: 35px;
+    left: -10px;
     background-color: #f1f1f1;
     min-width: 160px;
     box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
@@ -166,11 +168,11 @@ ul {
 
 /* Classes */
 
-
 .title-bar-lukedavey {
     position: absolute;
     display: inline;
     top: 0px;
+    left: 15px;
     font-size: 15px;
     margin: 0px;
 }
@@ -198,7 +200,7 @@ ul {
     margin: 0px;
 }
 
-.dropdown-image:hover{
+.dropdown-image:hover {
     border-radius: 0%;
     width: 40px;
     margin: 0px;
@@ -218,7 +220,7 @@ ul {
 .title-bar-education {
     position: absolute;
     top: 12px;
-    left: 264px;
+    left: 207px;
     font-family: Georgia, 'Times New Roman', Times, serif;
     font-size: 20px;
     display: inline;
@@ -227,7 +229,7 @@ ul {
 .title-bar-hobbies {
     position: absolute;
     top: 12px;
-    left: 380px;
+    left: 323px;
     font-family: Georgia, 'Times New Roman', Times, serif;
     font-size: 20px;
     display: inline;
@@ -236,7 +238,7 @@ ul {
 .title-bar-skills {
     position: absolute;
     top: 12px;
-    left: 476px;
+    left: 419px;
     font-family: Georgia, 'Times New Roman', Times, serif;
     font-size: 20px;
     display: inline;
@@ -245,7 +247,7 @@ ul {
 .title-bar-qualifications {
     position: absolute;
     top: 12px;
-    left: 542px;
+    left: 485px;
     font-family: Georgia, 'Times New Roman', Times, serif;
     font-size: 20px;
     display: inline;
@@ -254,7 +256,7 @@ ul {
 .title-bar-contactme {
     position: absolute;
     top: 12px;
-    left: 696px;
+    left: 639px;
     font-family: Georgia, 'Times New Roman', Times, serif;
     font-size: 20px;
     display: inline;
@@ -363,39 +365,37 @@ ul {
 
 @media (max-width: 860px) {
 
-    .luke-name {}
-
     .title-bar-education {
         position: absolute;
-        top: 14px;
-        left: 264px;
+        top: 12px;
+        left: 207px;
         font-family: Georgia, 'Times New Roman', Times, serif;
-        font-size: 16px;
+        font-size: 18px;
         display: inline;
     }
 
     .title-bar-hobbies {
         position: absolute;
-        top: 14px;
-        left: 358px;
+        top: 12px;
+        left: 312px;
         font-family: Georgia, 'Times New Roman', Times, serif;
-        font-size: 16px;
+        font-size: 18px;
         display: inline;
     }
 
     .title-bar-skills {
         position: absolute;
-        top: 14px;
-        left: 436px;
+        top: 12px;
+        left: 399px;
         font-family: Georgia, 'Times New Roman', Times, serif;
-        font-size: 16px;
+        font-size: 18px;
         display: inline;
     }
 
     .title-bar-qualifications {
         position: absolute;
-        top: 14px;
-        left: 491px;
+        top: 12px;
+        left: 460px;
         font-family: Georgia, 'Times New Roman', Times, serif;
         font-size: 16px;
         display: inline;
@@ -403,8 +403,8 @@ ul {
 
     .title-bar-contactme {
         position: absolute;
-        top: 14px;
-        left: 621px;
+        top: 12px;
+        left: 586px;
         font-family: Georgia, 'Times New Roman', Times, serif;
         font-size: 16px;
         display: inline;
@@ -494,7 +494,61 @@ ul {
 
 }
 
-@media (max-width: 760px) {}
+@media (max-width: 760px) {
+
+    .dropdown {
+        top: -1px;
+    }
+
+    .lukedavey-title-bar {
+        left: 60px;
+    }
+
+    .title-bar-education {
+        position: absolute;
+        top: -100px;
+        left: 207px;
+        font-family: Georgia, 'Times New Roman', Times, serif;
+        font-size: 18px;
+        display: inline;
+    }
+
+    .title-bar-hobbies {
+        position: absolute;
+        top: -100px;
+        left: 312px;
+        font-family: Georgia, 'Times New Roman', Times, serif;
+        font-size: 18px;
+        display: inline;
+    }
+
+    .title-bar-skills {
+        position: absolute;
+        top: -100px;
+        left: 399px;
+        font-family: Georgia, 'Times New Roman', Times, serif;
+        font-size: 18px;
+        display: inline;
+    }
+
+    .title-bar-qualifications {
+        position: absolute;
+        top: -100px;
+        left: 460px;
+        font-family: Georgia, 'Times New Roman', Times, serif;
+        font-size: 16px;
+        display: inline;
+    }
+
+    .title-bar-contactme {
+        position: absolute;
+        top: -100px;
+        left: 586px;
+        font-family: Georgia, 'Times New Roman', Times, serif;
+        font-size: 16px;
+        display: inline;
+    }
+}
 
 @media (max-width: 590px) {
 
