@@ -365,6 +365,10 @@ ul {
 
 @media (max-width: 860px) {
 
+    .aspiring-for-greatness-table {
+        width: 100%;
+    }
+
     .title-bar-education {
         position: absolute;
         top: 12px;
