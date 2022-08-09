@@ -63,7 +63,7 @@ a:visited {
 }
 
 a:hover {
-    color: #0059ff;
+    color: #2d70ecd7;
     background-color: transparent;
     text-decoration: underline;
 }
@@ -265,7 +265,7 @@ ul {
 .lukedavey-title-bar {
     font-family: Georgia, 'Times New Roman', Times, serif;
     display: inline;
-    width: 1000px;
+    width: 200px;
 }
 
 .title-bar-image {
@@ -499,6 +499,16 @@ ul {
 }
 
 @media (max-width: 760px) {
+
+    .title-bar-lukedavey {
+        position: absolute;
+        display: inline;
+        top: 0px;
+        left: unset;
+        right: 269px;
+        font-size: 15px;
+        margin: 0px;
+    }
 
     .dropdown {
         top: -1px;
