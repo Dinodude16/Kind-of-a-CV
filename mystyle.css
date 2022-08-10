@@ -168,6 +168,11 @@ ul {
 
 /* Classes */
 
+.no-space {
+    width: 0px;
+    height: 0px;
+}
+
 .title-bar-lukedavey {
     position: absolute;
     display: inline;
