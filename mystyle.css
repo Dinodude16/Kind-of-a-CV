@@ -265,7 +265,7 @@ ul {
 .lukedavey-title-bar {
     font-family: Georgia, 'Times New Roman', Times, serif;
     display: inline;
-    width: 200px;
+    width: 250px;
 }
 
 .title-bar-image {
@@ -498,7 +498,7 @@ ul {
 
 }
 
-@media (max-width: 760px) {
+@media (max-width: 720px) {
 
     .title-bar-lukedavey {
         position: absolute;
