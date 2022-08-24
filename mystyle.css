@@ -172,6 +172,10 @@ ul {
     color: unset;
 }
 
+.blue:link {
+    color: unset;
+}
+
 .blue:hover {
     text-decoration: none;
 }
