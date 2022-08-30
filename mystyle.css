@@ -1,5 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
 
+*{
+    scroll-behavior: smooth;
+}
+
 .dropbtn {
     background-color: #04AA6D;
     color: white;
@@ -168,6 +172,10 @@ ul {
 
 /* Classes */
 
+.link-margin {
+    margin-bottom: 0px;
+}
+
 .blue:visited {
     color: unset;
 }
@@ -190,32 +198,36 @@ ul {
     height: 2px;
     margin: 0px;
     background-color: unset;
+    position: relative;
+    top: -70px;
 }
 
+/* 
 .no-space-edu {
     position: relative;
-    top: 244px;
+    top: 0px;
 }
 
 .no-space-hob {
     position: relative;
-    top: 499px;
+    top: 0px;
 }
 
 .no-space-ski {
     position: relative;
-    top: 732px;
+    top: 0px;
 }
 
 .no-space-qua {
     position: relative;
-    top: 891px;
+    top: 0px;
 }
 
 .no-space-con {
     position: relative;
-    top: 1080px;
+    top: 0px;
 }
+ */
 
 .title-bar-lukedavey {
     position: absolute;
@@ -380,7 +392,7 @@ ul {
 
 .georgia-font {
     font-family: Georgia, 'Times New Roman', Times, serif;
-    margin-top: 10px;
+    margin-top: 8px;
     margin-bottom: 10px;
 }
 
