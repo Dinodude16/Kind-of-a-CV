@@ -111,10 +111,11 @@ img {
     border-radius: 50%;
     width: 150px;
     margin: 10px;
+    transition: all 300ms;
 }
 
 img:hover {
-    border-radius: 48%;
+    border-radius: 44%;
 }
 
 hr {
