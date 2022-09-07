@@ -1,6 +1,28 @@
 @import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
 
-*{
+
+/* width */
+::-webkit-scrollbar {
+    width: 15px;
+    border: 20px solid white;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+    background: #CDD9F0;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+    background: #b8c2d6;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+    background: #99a3b6;
+}
+
+* {
     scroll-behavior: smooth;
 }
 
@@ -253,7 +275,7 @@ ul {
 .spacer-div {
     height: 60px;
     width: 100%;
-    margin: 0; 
+    margin: 0;
     background-color: none;
 }
 
@@ -417,6 +439,11 @@ ul {
 
 .main-body-div {
     margin-top: 5px;
+}
+
+svg {
+    max-width: 100px;
+    background-color: red;
 }
 
 @media (max-width: 860px) {
