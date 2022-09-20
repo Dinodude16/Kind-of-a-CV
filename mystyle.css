@@ -443,7 +443,8 @@ ul {
 
 svg {
     max-width: 100px;
-    background-color: red;
+    fill:#274376;
+    border: 0px;
 }
 
 @media (max-width: 860px) {
